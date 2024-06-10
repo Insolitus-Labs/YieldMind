@@ -22,26 +22,28 @@ export default function Home() {
         <title>VIGLO - AI-Powered Insights</title>
         <meta name="description" content="VIGLO brings AI-powered insights to the world of finance and trading." />
       </Head>
-      <main className="bg-gray-900 text-white overflow-x-hidden">
+      <main className="bg-gray-900 text-white overflow-x-hidden" role="main">
         <Hero />
-        <section id="how-it-works">
-          <HowItWorks />
-        </section>
-        <section id="features">
-          <Features />
-        </section>
-        <section id="use-cases">
-          <UseCases />
-        </section>
-        <section id="why-viglo">
-          <WhyVIGLO />
-        </section>
-        <section id="live-dashboard">
-          <DynamicLiveDashboard />
-        </section>
-        <section id="join">
-          <DynamicJoinRevolution />
-        </section>
+        <nav aria-label="Main Navigation">
+          <section id="how-it-works">
+            <HowItWorks />
+          </section>
+          <section id="features">
+            <Features />
+          </section>
+          <section id="use-cases">
+            <UseCases />
+          </section>
+          <section id="why-viglo">
+            <WhyVIGLO />
+          </section>
+          <section id="live-dashboard">
+            <DynamicLiveDashboard />
+          </section>
+          <section id="join">
+            <DynamicJoinRevolution />
+          </section>
+        </nav>
         <Footer />
       </main>
     </>

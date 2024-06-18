@@ -21,6 +21,11 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="VIGLO - AI-Powered Fraud Detection" />
+        <meta property="og:description" content="VIGLO leverages AI to detect fraudulent activities on Solana." />
+        <meta property="og:image" content="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/openart-image.jpg" />
+        <meta property="og:url" content="https://viglo.com" />
+        <meta name="twitter:card" content="summary_large_image" />
         <link
           rel="preload"
           href="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/openart-image_f3n-YsTm_1736231910487_raw.jpg-C8QuPQsopNG8KeRVHe1HzUk8ULBAh2.jpeg"

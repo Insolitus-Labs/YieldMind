@@ -9,10 +9,12 @@ import Footer from "./components/Footer";
 
 const DynamicLiveDashboard = dynamic(() => import("./components/LiveDashboard"), {
   loading: () => <p>Loading...</p>,
+  ssr: false, // Disabled SSR for improved performance
 });
 
 const DynamicJoinRevolution = dynamic(() => import("./components/JoinRevolution"), {
   loading: () => <p>Loading...</p>,
+  ssr: false,
 });
 
 export default function Home() {

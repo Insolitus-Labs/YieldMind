@@ -26,6 +26,15 @@ export default function RootLayout({
         <meta property="og:image" content="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/openart-image.jpg" />
         <meta property="og:url" content="https://viglo.com" />
         <meta name="twitter:card" content="summary_large_image" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-X"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-XXXXX-X');
+          `}
+        </script>
         <link
           rel="preload"
           href="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/openart-image_f3n-YsTm_1736231910487_raw.jpg-C8QuPQsopNG8KeRVHe1HzUk8ULBAh2.jpeg"

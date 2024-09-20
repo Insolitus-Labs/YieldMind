@@ -9,7 +9,15 @@
     "baseColor": "neutral",
     "cssVariables": true,
     "prefix": "",
-    "darkMode": "class"
+    "darkMode": "class",
+    "theme": {
+      "extend": {
+        "colors": {
+          "primary": "#1D4ED8",
+          "secondary": "#9333EA"
+        }
+      }
+    }
   },
   "aliases": {
     "components": "@/components",

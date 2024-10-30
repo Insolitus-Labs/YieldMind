@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 const DynamicLiveDashboard = dynamic(() => import("./components/LiveDashboard"), {
   loading: () => <p>Loading...</p>,
-  ssr: false, // Disabled SSR for improved performance
+  ssr: false,
 });
 
 const DynamicJoinRevolution = dynamic(() => import("./components/JoinRevolution"), {
@@ -23,6 +23,15 @@ export default function Home() {
       <Head>
         <title>VIGLO - AI-Powered Insights</title>
         <meta name="description" content="VIGLO brings AI-powered insights to the world of finance and trading." />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-X"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-XXXXX-X');
+          `}
+        </script>
       </Head>
       <main className="bg-gray-900 text-white overflow-x-hidden" role="main">
         <Hero />

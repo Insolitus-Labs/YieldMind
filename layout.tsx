@@ -29,18 +29,10 @@ export default function RootLayout({
         <script async defer src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-X"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          rel="preload"
-          href="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/openart-image_f3n-YsTm_1736231910487_raw.jpg-C8QuPQsopNG8KeRVHe1HzUk8ULBAh2.jpeg"
-          as="image"
-        />
-        <link
-          rel="icon"
-          href="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/openart-image_f3n-YsTm_1736231910487_raw.jpg-C8QuPQsopNG8KeRVHe1HzUk8ULBAh2.jpeg"
-          type="image/jpeg"
-        />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className} aria-hidden="false">
+        {children}
+      </body>
     </html>
   );
 }

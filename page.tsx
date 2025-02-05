@@ -33,7 +33,7 @@ export default function Home() {
           `}
         </script>
       </Head>
-      <main className="bg-gray-900 text-white overflow-x-hidden" role="main">
+      <main className="bg-gray-900 text-white overflow-x-hidden sm:p-4 md:p-6" role="main">
         <Hero />
         <nav aria-label="Main Navigation">
           <section id="how-it-works">

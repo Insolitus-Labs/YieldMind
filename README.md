@@ -1,6 +1,6 @@
 # YieldMind - Smart AI-Driven Yield Optimization for DeFi
 
-![YieldMind Banner](https://raw.githubusercontent.com/YieldMind/.github/refs/heads/main/Banner.png)
+![YieldMind Banner](https://raw.githubusercontent.com/Insolitus-Labs/YieldMind/refs/heads/main/Banner.png)
 
 YieldMind is an AI-powered yield optimization engine designed to maximize returns and minimize risks in the decentralized finance (DeFi) ecosystem. Built for efficiency and automation, YieldMind dynamically reallocates assets, executes arbitrage strategies, and optimizes portfolio performance with real-time AI-driven analytics.
 

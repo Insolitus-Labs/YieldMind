@@ -4,8 +4,8 @@ import type { Metadata } from "next"
 import type React from "react" // Import React
 
 export const metadata: Metadata = {
-  title: "APEXIFY",
-  description: "AI-Powered Yield Farming Across Solana",
+  title: "YieldMind",
+  description: "Smart AI-Driven Yield Optimization for DeFi",
 }
 
 export default function RootLayout({

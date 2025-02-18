@@ -21,7 +21,8 @@
           "serif": ["Merriweather", "serif"]
         }
       }
-    }
+    },
+    "plugins": ["@tailwindcss/forms", "@tailwindcss/typography"]
   },
   "aliases": {
     "components": "@/components",

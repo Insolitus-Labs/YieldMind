@@ -32,7 +32,8 @@
     "hooks": "@/hooks",
     "context": "@/context",
     "services": "@/services",
-    "assets": "@/assets"
+    "assets": "@/assets",
+    "icons": "@/components/icons"
   },
-  "iconLibrary": "lucide"
+  "iconLibrary": ["lucide", "custom"]
 }
